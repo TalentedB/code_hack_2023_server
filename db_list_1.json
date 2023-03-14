@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Signature ID",
+          "description": "The patient's online signature.",
+        "id": "signatureId"
+    },
+    {
+        "name": "Wifey Material",
+        "description": "Are they wife material? This is key.",
+        "id": "wifeyMaterial"
+    },
+    {
+        "name": "Medication",
+        "description": "What kind of medication is the patient taking?",
+        "id": "medication"
+    },
+    {
+        "name": "Insurance",
+        "description": "Does the patient have insurance? Which kind?",
+        "id": "insurance"
+    },
+    {
+        "name": "Allergies",
+        "description": "Is the patient allergic to anything?",
+        "id": "allergies"
+    },
+    {
+        "name": "Conditions",
+        "description": "Does the patient have any conditions?",
+        "id": "conditions"
+    },
+    {
+        "name": "Lab Results",
+        "description": "History of the patient's lab results.",
+        "id": "labResults"
+    },
+    {
+        "name": "Radiology Results",
+        "description": "History of the patient's radiology results.",
+        "id": "radiologyResults"
+    },
+    {
+        "name": "Hospital Reports",
+        "description": "The patient's hospital reports.",
+        "id": "hospitalReports"
+    },
+    {
+        "name": "Involved Clinicians",
+        "description": "The healthcare works who have treated this patient.",
+        "id": "involvedClinicians"
+    },
+    {
+        "name": "Clinical Visit Notes",
+        "description": "Important notes in the patient's file.",
+        "id": "clinicVisitNotes"
+    },
+    {
+        "name": "Advanced Care Planning",
+        "description": "Does the patient have any plans set up for long term care?",
+        "id": "advancedCarePlanning"
+    },
+    {
+        "name": "Access Logs",
+        "description": "The patient's personal health access history.",
+        "id": "accessLogs"
+    }
+]
