@@ -1,0 +1,329 @@
+{
+   "rfid":"1234567890",
+   "legalName":"Kate Wilson",
+   "signatureId":"aiuhdiuahdfaiehfaiuhfaiyuwefayiuwgfiuawgfe23g9g2q3fq97ghq2fhqv0q43n95vq09875v087089743q5098v75qn0935v7vq093457vq093457vnq054",
+   "sex":"Female",
+   "dateOfBirth":"1917-05-29",
+   "wifeyMaterial":true,
+   "notes":"Please contact my husband - Max",
+   "medication":{
+      "description":"Medication History",
+      "medsList":[
+         {
+            "name":"Melatonin",
+            "frequency":123421231233,
+            "dosage":2,
+            "description":"F"
+         },
+         {
+            "name":"Advil",
+            "frequency":1851283457132132,
+            "dosage":2,
+            "description":"Take while upside down in a hand stand position"
+         },
+         {
+            "name":"Addoral",
+            "frequency":1851283457,
+            "dosage":3,
+            "description":"Take With Food"
+         }
+      ]
+   },
+   "insurance":{
+      "description":"Insurance companies involved with user",
+      "insuranceList":[
+         {
+            "name":"Biomedical Insurance Company",
+            "Dental":true,
+            "Other stuff":"Yes"
+         },
+         {
+            "name":"Dental Health",
+            "Dental":true,
+            "Other stuff":"Yes"
+         }
+      ]
+   },
+   "allergies":{
+      "description":"Patient Allergies",
+      "alergyList":[
+         {
+            "name":"Peanuts",
+            "severity":"Mild",
+            "description":"I have a peanut allergy"
+         },
+         {
+            "name":"Shellfish",
+            "severity":"Mild",
+            "description":"I have a shellfish allergy"
+         }
+      ]
+   },
+   "conditions":{
+      "description":"Patient Conditions",
+      "conditionList":[
+         {
+            "name":"Diabetes",
+            "severity":"Mild",
+            "description":"I have diabetes"
+         },
+         {
+            "name":"Asthma",
+            "severity":"Mild",
+            "description":"I have asthma"
+         }
+      ]
+   },
+   "labResults":{
+      "description":"Lab Results",
+      "labResultsList":[
+         {
+            "name":"Blood Test",
+            "dateReturned":"123412341234",
+            "description":"Blood test results"
+         },
+         {
+            "name":"Urine Test",
+            "dateReturned":"123412341234",
+            "description":"Urine test results"
+         }
+      ]
+   },
+   "radiologyResults":{
+      "description":"Radiology Results",
+      "radiologyResultsList":[
+         {
+            "name":"X-Ray",
+            "dateReturned":"123412341234",
+            "description":"X-Ray results"
+         },
+         {
+            "name":"CT Scan",
+            "dateReturned":"123412341234",
+            "description":"CT Scan results"
+         }
+      ]
+   },
+   "hospitalReports":{
+      "description":"Hospital Reports",
+      "hospitalReportsList":[
+         {
+            "name":"Hospital Report",
+            "dateReturned":"123412341234",
+            "description":"Hospital Report results"
+         },
+         {
+            "name":"Hospital Report 2",
+            "dateReturned":"123412341234",
+            "description":"Hospital Report results"
+         }
+      ]
+   },
+   "involvedClinicians":{
+      "description":"Involved Clinicians With Patient",
+      "involvedCliniciansList":[
+         {
+            "name":"Dr. John Smith",
+            "specialty":"Cardiologist",
+            "description":"Dr. John Smith is a cardiologist"
+         },
+         {
+            "name":"Dr. Jane Doe",
+            "specialty":"Dentist",
+            "description":"Dr. Jane Doe is a dentist"
+         }
+      ]
+   },
+   "clinicVisitNotes":{
+      "description":"Clinic Visit Notes",
+      "clinicVistNotesList":[
+         {
+            "name":"Clinic Visit Notes",
+            "dateReturned":"123412341234",
+            "description":"They for some reason drank redbull and actually got wings..."
+         },
+         {
+            "name":"Clinic Visit Notes 2",
+            "dateReturned":"123412341234",
+            "description":"They had a limp on their left leg, and they were wearing a cast on their right arm."
+         }
+      ]
+   },
+   "advancedCarePlanning":{
+      "description":"Advanced Care Planning",
+      "advancedCarePlanningList":[
+         {
+            "name":"Do Not Resussitate (DNR)",
+            "description":"Advanced Care Planning"
+         },
+         {
+            "name":"Song Requests",
+            "description":"He likes to listen to staying alive while getting CPR"
+         }
+      ]
+   },
+   "accessLogs":[
+      {
+         "visitID":"749750",
+         "clinicID":"451376",
+         "accessTime":"Mar 12, 2023",
+         "clinicName":"Jubilee Hospital",
+         "clinicLocation":"1234 Main Street, New York, NY 10001",
+         "clinicPhone":"123-456-7890",
+         "clinician":"Dr. John Smith",
+         "clinicianSpecialty":"Cardiologist",
+         "accessedInformation":{
+            "Signature ID":true,
+            "Medication":true,
+            "Insurance":true,
+            "Allergies":true
+         }
+      },
+      {
+         "visitID":"759399",
+         "clinicID":"429830",
+         "accessTime":"Mar 12, 2023",
+         "clinicName":"Sannich Clinic",
+         "clinicLocation":"1234 Main Street, New York, NY 10001",
+         "clinicPhone":"123-456-7890",
+         "clinician":"Dr. Trent",
+         "clinicianSpecialty":"Cardiologist",
+         "accessedInformation":{
+            "Involved Clinicians":true,
+            "Hospital Reports":true,
+            "Advanced Care Planning":true
+         }
+      },
+      {
+         "visitID":"708181",
+         "clinicID":"720602",
+         "accessTime":"Mar 12, 2023",
+         "clinicName":"Jubilee Hospital",
+         "clinicLocation":"1234 Main Street, New York, NY 10001",
+         "clinicPhone":"123-456-7890",
+         "clinician":"Dr. Victoria Park",
+         "clinicianSpecialty":"Cardiologist",
+         "accessedInformation":{
+            "Involved Clinicians":true,
+            "Clinical Visit Notes":true
+         }
+      },
+      {
+         "visitID":"871894",
+         "clinicID":"532148",
+         "accessTime":"Mar 12, 2023",
+         "clinicName":"Jubilee Hospital",
+         "clinicLocation":"1234 Main Street, New York, NY 10001",
+         "clinicPhone":"123-456-7890",
+         "clinician":"Dr. Katherine Kim",
+         "clinicianSpecialty":"Cardiologist",
+         "accessedInformation":{
+            "Wifey Material":true
+         }
+      },
+      {
+         "visitID":"554415",
+         "clinicID":"963786",
+         "accessTime":"Mar 12, 2023",
+         "clinicName":"Jubilee Hospital",
+         "clinicLocation":"1234 Main Street, New York, NY 10001",
+         "clinicPhone":"123-456-7890",
+         "clinician":"Dr. Thomas Park",
+         "clinicianSpecialty":"Cardiologist",
+         "accessedInformation":{
+            "Signature ID":true,
+            "Medication":true,
+            "Insurance":true,
+            "Allergies":true
+         }
+      },
+      {
+         "visitID":"634057",
+         "clinicID":"731371",
+         "accessTime":"Mar 12, 2023",
+         "clinicName":"Jubilee Hospital",
+         "clinicLocation":"1234 Main Street, New York, NY 10001",
+         "clinicPhone":"123-456-7890",
+         "clinician":"Dr. Elizabeth Jones",
+         "clinicianSpecialty":"Cardiologist",
+         "accessedInformation":{
+            "Insurance":true
+         }
+      },
+      {
+         "visitID":"490345",
+         "clinicID":"391253",
+         "accessTime":"Mar 12, 2023",
+         "clinicName":"Jubilee Hospital",
+         "clinicLocation":"1234 Main Street, New York, NY 10001",
+         "clinicPhone":"123-456-7890",
+         "clinician":"Dr. Cynthia Kim",
+         "clinicianSpecialty":"Cardiologist",
+         "accessedInformation":{
+            
+         }
+      },
+      {
+         "visitID":"174233",
+         "clinicID":"321682",
+         "accessTime":"Mar 13, 2023",
+         "clinicName":"Jubilee Hospital",
+         "clinicLocation":"1234 Main Street, New York, NY 10001",
+         "clinicPhone":"123-456-7890",
+         "clinician":"Dr. Brandon Lee",
+         "clinicianSpecialty":"Cardiologist",
+         "accessedInformation":{
+            "Conditions":true,
+            "Lab Results":true,
+            "Radiology Results":true
+         }
+      },
+      {
+         "visitID":"438506",
+         "clinicID":"745422",
+         "accessTime":"Mar 13, 2023",
+         "clinicName":"Jubilee Hospital",
+         "clinicLocation":"1234 Main Street, New York, NY 10001",
+         "clinicPhone":"123-456-7890",
+         "clinician":"Dr. Nathan Kim",
+         "clinicianSpecialty":"Cardiologist",
+         "accessedInformation":{
+            "Medication":true,
+            "Conditions":true
+         }
+      },
+      {
+         "visitID":"852558",
+         "clinicID":"756420",
+         "accessTime":"Mar 14, 2023",
+         "clinicName":"Jubilee Hospital",
+         "clinicLocation":"1234 Main Street, New York, NY 10001",
+         "clinicPhone":"123-456-7890",
+         "clinician":"Dr. Adam Lee",
+         "clinicianSpecialty":"Cardiologist",
+         "accessedInformation":{
+            "Wifey Material":true,
+            "Insurance":true,
+            "Conditions":true,
+            "Allergies":true,
+            "Lab Results":true,
+            "Radiology Results":true
+         }
+      },
+      {
+         "visitID":"584792",
+         "clinicID":"493096",
+         "accessTime":"Mar 14, 2023",
+         "clinicName":"Jubilee Hospital",
+         "clinicLocation":"1234 Main Street, New York, NY 10001",
+         "clinicPhone":"123-456-7890",
+         "clinician":"Dr. William Park",
+         "clinicianSpecialty":"Cardiologist",
+         "accessedInformation":{
+            "Insurance":true,
+            "Conditions":true,
+            "Radiology Results":true
+         }
+      }
+   ]
+}
